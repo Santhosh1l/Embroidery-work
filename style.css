@@ -1,0 +1,81 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.8; /* Increased for better readability */
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    background-color: #e0b0ff; /* Light lavender background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #4b0082; /* Indigo color */
+}
+
+header h2 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Section styling */
+.description, .gallery {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.description h2, .gallery h2 {
+    color: #4b0082;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 1em;
+}
+
+/* Gallery styling */
+.gallery .image-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 20%; /* Set image width to 20% for smaller images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    transition: transform 0.3s; /* Add hover effect */
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e0b0ff; /* Match the header background */
+ /*   border-top: 2px solid #4b0082;}
+ 
+
